@@ -13,10 +13,7 @@ export function AboutSection() {
             </h2>
             <div className="mt-8 space-y-5 text-base leading-relaxed text-muted-foreground">
               <p>
-                Sibito & Lagartixa é um espaço colaborativo onde ideias se reúnem para criar soluções sustentáveis que atendam aos nossos clientes. 
-              </p>
-              <p>
-                Nossos serviços abrangem projetos de paisagismo para jardins, áreas internas, fachadas e coberturas.
+                Sibito & Lagartixa é um <strong>espaço colaborativo</strong> onde ideias se reúnem para criar soluções sustentáveis que atendam aos nossos clientes. 
               </p>
             </div>
           </div>
