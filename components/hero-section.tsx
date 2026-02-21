@@ -19,7 +19,7 @@ export function HeroSection() {
           Soluções agrônomicas para seu lar
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-primary-foreground/90 md:text-lg">
-          Combinamos a agronomia com criatividade e proporcionamos soluções eficazes para seu jardim
+          Combinamos agronomia com criatividade e proporcionamos soluções eficazes para seu jardim
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
