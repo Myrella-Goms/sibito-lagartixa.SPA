@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { navLinks } from "@/lib/constants";
 
 export function Header() {
@@ -11,33 +12,13 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <svg
-            width="32"
-            height="32"
-            viewBox="0 0 32 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <circle
-              cx="16"
-              cy="16"
-              r="15"
-              className="stroke-primary"
-              strokeWidth="2"
-            />
-            <path
-              d="M16 6 C12 10, 8 16, 16 26 C24 16, 20 10, 16 6Z"
-              className="fill-primary"
-              opacity="0.8"
-            />
-            <path
-              d="M10 14 Q16 10 22 14"
-              className="stroke-accent"
-              strokeWidth="1.5"
-              fill="none"
-            />
-          </svg>
+          <Image
+            src="/images/logo.png"
+            alt="Sibito & Lagartixa"
+            width={40}
+            height={40}
+            className="object-contain"
+          />
           <span className="font-serif text-xl tracking-tight text-foreground">
             Sibito & Lagartixa
           </span>

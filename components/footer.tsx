@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { navLinks } from "@/lib/constants";
 
 export function Footer() {
@@ -6,27 +7,13 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="flex items-center gap-2">
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 32 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-            >
-              <circle
-                cx="16"
-                cy="16"
-                r="15"
-                className="stroke-primary"
-                strokeWidth="2"
-              />
-              <path
-                d="M16 6 C12 10, 8 16, 16 26 C24 16, 20 10, 16 6Z"
-                className="fill-primary"
-                opacity="0.8"
-              />
-            </svg>
+            <Image
+              src="/images/logo.png"
+              alt="Sibito & Lagartixa"
+              width={40}
+              height={40}
+              className="object-contain"
+            />
             <span className="font-serif text-lg text-foreground">
               Sibito & Lagartixa
             </span>
