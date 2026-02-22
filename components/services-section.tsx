@@ -185,7 +185,7 @@ export function ServicesSection() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="group rounded-2xl border border-border bg-card p-8 transition-shadow hover:shadow-lg"
+              className="group rounded-2xl border border-border bg-card p-8"
             >
               <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-xl bg-muted">
                 {service.icon}
